@@ -1,0 +1,153 @@
+# EXAM FOR WEEK 6
+
+## KEEP IN MIND: YOU ARE DOING THIS FOR YOUR BRIGHT FUTURE, SO GIVE YOUR 120%!
+## ПОМНИТЕ: ВЫ ДЕЛАЕТЕ ЭТО ДЛЯ СВОЕГО СВЕТЛОГО БУДУЩЕГО, ПОЭТОМУ ВЫКЛАДЫВАЙТЕСЬ НА ВСЕ СВОИ 120%!
+
+## RULES:
+> No interner, no help to each other!
+
+> Make one file and place all your work there (e.g. odina_kholiqov.py)
+
+> Send the file at 
+
+> You have 2 hours only
+
+### 1 Question
+What is OOP and why is it important? Write about main principles of OOP.
+Чиро ООП мегуянд ва барои чӣ он лозим аст? Дар бораи принсипҳои асосии он нависед.
+ООП барои кам кардан ва осон кардани код лозим аст 
+ооп к коди калона ба як чанд логический обекто таксим карда фахмидани кодро осон мекунад
+1.инкапсуляцыя
+мода скрыть кардани малумот даркор аст ва у намемонад  ки ягон дигар шахс малумотои ира гирифта натавонад
+2.инхеритенс(мерос)
+нихеритенс барои кам кардани код  даркор аст ва барои ира истифода бурдан на аз кам 2 слас мода даркор мешавад 
+перент кати чайлд клас 
+чайл клас аз перент клас мерос мегирад атрибутоша
+3.парадигма
+парадишма мода барои осон ва кам кардани код даркор мебошам 
+як метода дар хамаи чо истифода бурда  метавонем
+### 2 Question
+What are getter and setter and how to use them? Write about properties in python.
+Getter ва setter чист ва чӣ тавр онҳоро истифода мебарем? Дар бораи хусусиятҳо(properties) дар python нависед.
+гетер ва сетор методои асоси буда барои привато кати кор мекунад 
+гетер барои малумотро кабул кардан истифода бурда мешавад 
+сетер бошад нишон додани малумот истифода бурда мешавад
+
+### 3 Question
+Types of variables and methods in a class.
+Кадом намуди атрибутҳо ва методҳо дар клас мавҷуданд. 
+1. instance(variable)
+2.class(variable)
+1.class(method)
+2.static(method)
+3.instance(method)
+### 4 Question
+Write about constructor and destructor.
+Дар бораи конструктор ва деструктор нависед.
+
+мо дар ооп канструктор ва деструктордорем 
+канструктор __init__ мебошад ва у месозад 
+деструктор бошад __del__ мебошад ва у чизи сохтагимона вайрон мекунад
+
+### 5 Question
+Difference between global, local and nonlocal variables.
+Фарқият байни тағйирёбандаҳои global, local and nonlocal.
+глобала метавонем Берун айи функцыя нависем 
+локал кати нонлокал да даруни функцыя барои чи ки дарунифункцыяро хонда наметавонад 
+
+### 1 
+Create a program that asks the user for a range of numbers (x, y) and displays the multiplication tables from x to y.
+Барномае созед ки аз консол 2 рақамро қабул мекунад. Барои ҳар як адади дар ин давр вуҷуддошта ҷадвали зарбашро нишон диҳад.
+### EXAMPLE
+# INPUT
+    From = 2
+    To = 3
+# OUTPUT
+    2x1= 2
+    2x2= 4
+    2x3= 6
+    2x4= 8
+    2x5= 10
+    2x6= 12
+    2x7= 14
+    2x8= 16
+    2x9= 18
+    2x10= 20
+    
+    3x1= 3
+    3x2= 6
+    3x3= 9
+    3x4= 12
+    3x5= 15
+    3x6= 18
+    3x7= 21
+    3x8= 24
+    3x9= 27
+    3x10= 30
+
+### 2
+Create a class of Circle with instance variable like radius and class variable like PI(3.14). Then create a constructor which initializes the radius(radius comes as a parameter of constructor).
+Your class should have the following methods:
+Як класи Circle ки аз як тағйирёбандаи ба клас таалуқдошта PI = 3.14 ва як тағйирёбандаи ба обект тааллуқдошта radius ки қиммати он аз конструктор гузошта мешавад созед. Класи Шумо аз методҳои зерин бояд иборат бошад:
+
+1. get_area();               // area = 2 * PI * R * R
+2. get_diametr();           // diameter = 2 * R
+3. get_circumference();      //  circumference  = 2 * PI * R
+4. get_radius();             // radius  = R
+
+
+### 3
+Create a Calculator class with this static methods:
+Класи Калкуляторро бо методҳои статикии зерин созед:
+1. factorial(n)
+2. power(a, b)
+3. sqrt(n)
+
+
+### 4
+Write a program in Python that asks the user for two numbers and one operation (+, -, *, /) then calculate the operation and display the result on the screen.
+You should to follow this steps:
+Як класи Calculator созед ки дар конструктор атрибутҳои зеринро дорост. Рақами якум, амал(+, -, *, /) ва рақами дуюм. Калкулятори Шумо баяд 4 амали математикиро иҷро кунад. Берун аз клас як даври беохир(infinite loop) созед. Объекти класи Калкуляторро созед ва рақамҳо ва аломати дохил кардаатонро ба он гузоред. math case - ро барои  даъват кардани методиҳои клас вобаста ба аломати дохилкарда истифода баред.
+
+1.	Create class Calculator 
+2.	Create a constructor which initializes the first number, operation(+, -, *, /) and second number(first num, second num, operation comes as parameter of constructor).
+3.	Create four instance methods like: 
+    Sum()
+    Subtract()
+    Multiplication()
+    Division()
+4.	Create infinite loop outside Calculator class 
+5.	Use the math case block for calling methods
+### EXAMPLE
+# input 
+    The first number is: 3
+    The operation is: +
+    The second number is: 1
+# output
+    3 + 1 = 4
+
+
+
+### 5 Question
+Write an access control in PYTHON that asks the user for the username and password. Both must be integers from user.
+You should to follow this steps:
+1. Create a User class with attributes like First name, Last name, Username and Password. All atributes should init from constructor(__init__).
+2. Create a UserManager class with this methods:
+    register() -> in this method you should create object of User, input user information from console and append to list_of_users.
+    
+    login() -> this method should to check if user login and password both correct should print Login successful! or this user is not to list_of_user print User with this username not found and password incorrect print Password incorrect.
+    
+    change_password() -> this method for changing password by username, old_password and new_password
+	
+    GetUser() -> get all users from list_of_users
+
+Як барнома созед ки вазифаҳои зеринро иҷро кунад. Регирстратсия, логин, ивази парол, истифодабарандагон.
+Барои ҳалли ин масъала класи User бо атрибутҳои First name, Last name, Username ва Password созед. Ҳамаи атрибутҳо аз конструктор ворид карда шаванд. Класи дигар ки бояд созед ин UserManager ки аз методҳои register(), login(), change_password() ва GetUser() иборат аст.
+    register() -> дар ин метод обекти класи User - ро созед маълумотҳояшро аз консол дохил карда онро ба листи  list_of_users дохил кунед. 
+
+    login() -> дар ин метод бошад санҷед агар истифодабар бо ҳамин логир ва парол дар list_of_users бошад дар консол  Login successful! - ро нишон диҳед ва агар набошад User with this username not found, ё паролаш нодуруст бошад     Password incorrect!
+    
+    change_password() -> дар ин метод истифодабар метавонад бо дохил кардани username, old_password ва new_password паролашро иваз кунад.
+	
+    GetUser() -> ин метод бошад бо як формати хуб ҳамаи маълумотҳои истидабаронро дар консол нишон диҳад.
+
